@@ -26,6 +26,6 @@ for i in range(liczba_figur):
         break
 
 if wykonane_iteracje == liczba_figur:
-    print(pole_calkowite)
+    print(round(pole_calkowite,2))
 else:
     print("Błąd: można podać maksymalnie 3 liczby")
